@@ -26,6 +26,9 @@ a:active {
 body {
 	background-color:#FFFBF0; 
 	color:#943d24;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .headerdiv {
 	background-color:#943d24; 
@@ -54,17 +57,25 @@ body {
 	color: #FFFFFF;
 }
 .thirdscolumn {
-	width: 29.7%; 
+	width: 20%; 
 	float: left; 
 	text-align:center;
-	padding:35px;
-	margin: 10px;
+	padding:40px;
+	margin: 26px;
 	font-size:35px;
 	background-color:#F2DBB3;
 	border-width:10px;
 	border-color:#943d24;
 }
 .thirdscolumn:hover {
-	box-shadow: 10px 10px 5px 12px #943d24;
+	box-shadow: 10px 10px 5px 2px #943d24;
 	transform: rotate(2deg);
+}
+.content {
+	background-color:#F2DBB3; 
+	border-radius:2px; 
+	margin:40px; 
+	padding:10px 5px 10px 25px;
+	font-size:140%; 
+	line-height:2;
 }
