@@ -3,7 +3,7 @@
 <head>
 	<style>
 .row > .column {
-  padding: 0px;
+  padding: 0 8px;
 }
 
 .row:after {
@@ -15,7 +15,7 @@
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 25%;
+  width: 23.4%;
 }
 
 /* The Modal (background) */
@@ -192,22 +192,24 @@ img.hover-shadow {
 
     <!-- Thumbnail image controls -->
     <div class="column">
-      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Beach">
+      <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Beach: During the summertime, I love to go to the beach with friends and enjoy the ocean.">
     </div>
 
     <div class="column">
-      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Working out">
+      <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Working out: In my free time after school, I love to go to the gym and get stronger.">
     </div>
 
     <div class="column">
-      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Tokyo">
+      <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Tokyo: Japan is one of my favorite places to visit especially since I was born there and I find the culture very appealing.">
     </div>
 
     <div class="column">
-      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Snow mountains">
+      <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Snow mountains: During the winter season, I love to go up in the mountains with my family to snowboard and enjoy the chilly weather.">
     </div>
   </div>
-</div>
+	
+</div> 
+<p style="font-size:120%;">Using a Lightbox setup, I was able to make this page into a gallery to display my favorite things. Using internal CSS and javascript, I applied style to different images so that when an image is clicked, it opens a wider version. Each image has a description under which is the “alt” value. Using photoshop, I made a thumbnail version of the image and a wide version. After that, I included a short description of what each image means to me and represents. </p>
 <script>
 // Open the Modal
 function openModal() {
