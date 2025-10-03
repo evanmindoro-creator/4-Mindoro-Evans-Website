@@ -24,7 +24,7 @@ a:active {
 }
 
 body {
-	background-color:#FFFBF0; 
+	background-color:#EEBD79; 
 	color:#943d24;
 	max-width: 1000px;
 	margin-left: auto;
@@ -47,7 +47,7 @@ body {
 	
 }
 #bodydiv {
-	background-color:#FFFBF0;
+	background-color:#E4D3B4;
 	color:#943d24; 
 	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'
 }
